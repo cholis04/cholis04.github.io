@@ -403,6 +403,7 @@ body {
 		margin-left:-120%;
 		z-index:840;
 		width:100%;
+                background-image:linear-gradient(to bottom, #571E3EDF, #1E1F3EDF),url('./img/Background_Responsive.jpg');
 	}
 	.back-button{
 		display:block;
