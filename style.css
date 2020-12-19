@@ -254,15 +254,13 @@ body {
 	    align-self:flex-start;
 	display:none;
 	overflow-y:scroll;
-	-ms-overflow-style:none;
-	scrollbar-width:none;
-}
-.wrap-left #skills::-webkit-scrollbar {
-	display:none;
+	direction:rtl;
+	padding-left:20px;
 }
 
 .wrap-left #skills .skill-container{
 	width:100%;
+	direction:ltr;
 }
 .wrap-left #skills .skill-container .skill-set{
 	width:100%;
@@ -313,12 +311,15 @@ body {
 	width:100%;
 	display:none;
 	overflow-y:scroll;
-	-ms-overflow-style:none;
-	scrollbar-width:none;
+	direction:rtl;
+	padding-left:20px;
 }
-.wrap-left #artwork::-webkit-scrollbar {
-	display:none;
+
+.wrap-left #artwork .artwork-container{
+	width:100%;
+	direction:ltr;
 }
+
 
 .wrap-left #artwork .gallery{
 	width:100%;
@@ -517,6 +518,14 @@ body {
 		text-align:justify;
 		
 	}
+	.wrap-left #skills{
+		padding-left:0px;
+	}
+	
+	.wrap-left #artwork{
+		padding-left:0px;
+	}
+		
 	
 	.wrap-left #artwork .gallery .images-container p{
 		margin-top:0px;
