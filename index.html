@@ -4,19 +4,19 @@
     <!-- Required meta tags -->
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-	<meta name="description" content="Menerima Jasa  Pembuatan Web seperti Portofolio Website, Company Profile, Bussines Website, Landing Page dan UI / UX Desain" />
+	<meta name="description" content="Membuat Web seperti Portofolio Website, Company Profile, Bussines Website, Landing Page" />
 	<meta name="keywords" content="jasa desain website, jasa pembuatan website custom" />
 	
 	<meta name="theme-color" content="#571E3EDF" />
 	<meta name="msapplication-navbutton-color" content="#571E3EDF" />
 	<meta name="apple-mobile-web-app-status-bar-style" content="#571E3EDF" />
 	
-	
+	<link rel="apple-touch-icon" href="/favicon.png"/>
 	<link href='./favicon.png' rel='icon' sizes='12x12' type='image/gif'/>
 
-    <title>Nur Cholis - Desain Web</title>
+    <title>Nur Cholis - Web Designer</title>
 	<link rel="stylesheet" type="text/css" href="./style.css" />
-	  
+	<link rel="manifest" href="/manifest.json"/>
 	  
 	  <!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-180833949-1"></script>
@@ -64,7 +64,7 @@
 					<a class="back-button">x</a>
 					<div class="skill-container">
 						<h2>Skills</h2>
-						<details>
+						<details open>
 							<summary>Programming Language</summary>
 							<ul>
 								<li>PHP - (Intermediate)</li>
@@ -73,14 +73,14 @@
 								<li>Javascript - (Proficient)</li>
 							</ul>
 						</details>
-						<details>
+						<details open>
 							<summary>Mark Up Language</summary>
 							<ul>
 								<li>HTML - (Proficient)</li>
 								<li>CSS - (Proficient)</li>
 							</ul>
 						</details>
-						<details>
+						<details open>
 							<summary>Database</summary>
 							<ul>
 								<li>MySQL - (Proficient)</li>
@@ -88,7 +88,7 @@
 								<li>Firestore - (Basic)</li>
 							</ul>
 						</details>
-						<details>
+						<details open>
 							<summary>Library and Framework</summary>
 							<ul>
 								<li>Codeigniter - (Basic)</li>
@@ -97,50 +97,24 @@
 								<li>Bootstrap - (Intermediate)</li>
 							</ul>
 						</details>
-				
-						<!--
-						<div class="skill-container">
-							<div class="skill-set">
-								<label>PHP</label>
-								<progress value="70" max="100">70%</progress>
-							</div>
-							<div class="skill-set">
-								<label>Javascript (DOM)</label>
-								<progress value="68" max="100">68%</progress>
-							</div>
-							<div class="skill-set">
-								<label>CSS</label>
-								<progress value="82" max="100">82%</progress>
-							</div>
-							<div class="skill-set">
-								<label>HTML</label>
-								<progress value="84" max="100">84%</progress>
-							</div>
-							<div class="skill-set">
-								<label>MySQL</label>
-								<progress value="79" max="100">79%</progress>
-							</div>
-						</div>
-						-->
 						
-						<br/>
 						<hr/>
 						
 						<h2>Tools Support</h2>
-						<details>
+						<details open>
 							<summary>Version Control</summary>
 							<ul>
 								<li>Github</li>
 							</ul>
 						</details>
-						<details>
+						<details open>
 							<summary>Text Editor</summary>
 							<ul>
 								<li>Visual Studio Code</li>
 								<li>Notepad ++</li>
 							</ul>
 						</details>
-						<details>
+						<details open>
 							<summary>Graphic Design</summary>
 							<ul>
 								<li>Adobe XD</li>
@@ -156,33 +130,165 @@
 					<div class="artwork-container">
 						<h2>Portofolio</h2>
 						<div class="gallery">
-							<div class="images-container">
-								<img src="./img/artwork-1.png" alt="Artwork 1" title="Bussines Website" />
-								<p>Bussines Website</p>
-							</div>
+							
 							<div class="images-container">
 								<img src="./img/artwork-6.png" alt="Artwork 6" title="Carousnap Library JS" />
-								<p><a href="https://carousnap.github.io/" style="text-decoration:none;color:#ffffff" target="_blank">Easy Carousel</a></p>
+								<h4>Easy Carousel</h4>
+								<details open>
+									<summary>Description</summary>
+									<p>
+										Library Carousel Photo yang ringan dan mudah digunakan. Instalasi cepat menggunakan CDN Link dari JsDelivr.
+										
+									</p>
+								</details>
+								<details>
+									<summary>Technology Used</summary>
+									<ul>
+										<li>HTML</li>
+										<li>CSS3</li>
+										<li>Vanilla Javascript</li>
+									</ul>
+								</details>
+								<details>
+									<summary>Demo</summary>
+									<ul>
+										<li><a href="https://carousnap.github.io" target="_blank">Click This</a></li>
+									</ul>
+								</details>
 							</div>
-							<div class="images-container">
-								<img src="./img/artwork-4.png" alt="Artwork 4" title="Landing Page" />
-								<p>Landing Page</p>
-							</div>
+							
 							<div class="images-container">
 								<img src="./img/artwork-5.png" alt="Artwork 5" title="Web App" />
-								<p><a href="https://todolistapp-c4b8e.web.app/" style="text-decoration:none;color:#ffffff" target="_blank">Todolist Web App</a></p>
+								<h4>Todolist Web App</h4>
+								<details open>
+									<summary>Description</summary>
+									<p>
+										Web Aplikasi Pencatat Kegiatan Sederhana yang dibuat menggunakan Dasar-dasar React Js. pengguna bisa menceklis kegiatan untuk membuat teks menjadi strike, dan juga semua data disimpan di Local Storage pada browser pengguna.
+									</p>
+								</details>
+								<details>
+									<summary>Technology Used</summary>
+									<ul>
+										<li>HTML</li>
+										<li>CSS3</li>
+										<li>React Js</li>
+									</ul>
+								</details>
+								<details>
+									<summary>Demo</summary>
+									<ul>
+										<li><a href="https://todolistapp-c4b8e.web.app/" target="_blank">Click This</a></li>
+									</ul>
+								</details>
 							</div>
+							
 							<div class="images-container">
 								<img src="./img/artwork-2.png" alt="Artwork 2" title="Personal Portofolio" />
-								<p>Personal Portofolio</p>
+								<h4>Personal Portofolio</h4>
+								<details open>
+									<summary>Description</summary>
+									<p>
+										Berikut ini adalah website personal portofolio sebelum halaman web yang sekarang ini. dibuat menggunakan Bootstrap 4 serta di hosting di Blogspot.
+									</p>
+								</details>
+								<details>
+									<summary>Technology Used</summary>
+									<ul>
+										<li>Bootstrap 4</li>
+										<li>Blogspot</li>
+									</ul>
+								</details>
+								<details>
+									<summary>Demo</summary>
+									<ul>
+										<li><a href="https://cholis04.blogspot.com/" target="_blank">Click This</a></li>
+									</ul>
+								</details>
 							</div>
+						
 							<div class="images-container">
 								<img src="./img/artwork-3.png" alt="Artwork 3" title="Information System" />
-								<p>Information System</p>
+								<h4>Information System</h4>
+								<details open>
+									<summary>Description</summary>
+									<p>
+										Sistem Informasi pada sebuah website membantu mengelola Stok, Alur Kas, sehingga data yang di masukkan dapat terkomputerisasi.
+										Terdapat Fitur Login yang dibuat dengan menggunakan SESSION.
+									</p>
+								</details>
+								<details>
+									<summary>Technology Used</summary>
+									<ul>
+										<li>PHP</li>
+										<li>MySQL</li>
+										<li>Bootstrap Template</li>
+									</ul>
+								</details>
+								<details>
+									<summary>Demo</summary>
+									<ul>
+										<li>Unavailable</li>
+									</ul>
+								</details>
 							</div>
-							<div class="images-container" id="copyright">
+
+							<div class="images-container">
+								<img src="./img/artwork-4.png" alt="Artwork 4" title="Landing Page" />
+								<h4>Landing Page</h4>
+								<details open>
+									<summary>Description</summary>
+									<p>
+										Membuat Halaman Landing Page untuk sebuah usaha Custom Case. dengan tujuan mempromosikan Custom Case di halaman Blogspot.
+										Dan Menampilkan Seluruh Katalog yang tersedia pada Custom Case beserta detail setiap bahan yang digunakan.
+									
+									</p>
+								</details>
+								<details>
+									<summary>Technology Used</summary>
+									<ul>
+										<li>Blogger Template</li>
+									</ul>
+								</details>
+								<details>
+									<summary>Demo</summary>
+									<ul>
+										<li><a href="https://casegakure.blogspot.com/" target="_blank">Click This</a></li>
+									</ul>
+								</details>
+							</div>
+						
+							<div class="images-container">
+								<img src="./img/artwork-1.png" alt="Artwork 1" title="Bussines Website" />
+								<h4>Bussines Website</h4>
+								<details open>
+									<summary>Description</summary>
+									<p>
+										Website yang menyediakan Jasa Desain Wajah menjadi Vector, silhouette, dan lain-lain.
+										Terdapat Fitur Login Untuk Pengguna yang ingin memesan vector, beserta halaman riwayat pemesanan.<br/>
+										Admin juga dapat Login untuk menerima pesanan dan menverifikasi pemesanan berdasarkan Foto dan Bukti Pembayaran.
+									</p>
+								</details>
+								<details>
+									<summary>Technology Used</summary>
+									<ul>
+										<li>PHP</li>
+										<li>MySQL</li>
+										<li>HTML</li>
+										<li>CSS 3</li>
+										<li>Vanilla Javascript</li>
+									</ul>
+								</details>
+								<details>
+									<summary>Demo</summary>
+									<ul>
+										<li>Unavailable</li>
+									</ul>
+								</details>
+							</div>
 							
-								<p id="copy-p" style="font-size:14px;"><span style="font-size:8px;">Including This Website</span> <br/>Designed by <b>Cholis04</b></p>
+							<div class="images-container" id="copyright">
+								
+								<p id="copy-p"><span style="font-size:8px;">Including This Website</span> <br/>Designed by <b>Cholis04</b></p>
 								
 							</div>
 							
