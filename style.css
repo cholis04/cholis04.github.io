@@ -11,7 +11,7 @@
   /* border:1px solid grey; */
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 body {
   margin: 0;
@@ -140,10 +140,17 @@ body {
 }
 #right .wrap-right .photo-wrap .photo .available {
   position: absolute;
-  width: 32px;
-  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 36px;
+  height: 36px;
   border-radius: 100%;
   border: 5px solid white;
+  font-size: 20px;
+  font-family: serif;
+  font-weight: 800;
+  color: white;
   background-color: #25ef34;
   right: 0;
   bottom: 0;
@@ -514,6 +521,7 @@ body {
   #right .wrap-right .photo-wrap .photo .available {
     width: 32px;
     height: 32px;
+    font-size: 18px;
   }
   /* ###################### PHOTO ########################## */
 
