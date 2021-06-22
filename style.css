@@ -11,13 +11,13 @@
   /* border:1px solid grey; */
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 body {
   margin: 0;
   padding: 0;
   background: #f9f9f9;
-  font-family: 'Poppins', 'Helvetica', sans-serif;
+  font-family: 'Inter', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -162,18 +162,20 @@ body {
   margin: 0px auto;
   margin-top: 10px;
   font-size: 36px;
+  font-weight: 800;
   color: #3c3c3c;
 }
 #right .wrap-right .title {
   margin: 0px auto;
   font-size: 14px;
+  font-weight: 600;
   color: #8f8f8f;
 }
 /* ############################################# */
 
 #right .wrap-right .stats {
   margin: 0px auto;
-  margin-top: 5px;
+  margin-top: 10px;
   margin-bottom: 20px;
   max-width: 420px;
   width: 100%;
@@ -330,6 +332,10 @@ body {
   direction: ltr;
 }
 
+.content-container h2 {
+  font-weight: 800;
+}
+
 /* #######################H HOME ########################### */
 .wrap-left #home {
   padding: 10px;
@@ -372,6 +378,8 @@ body {
 .wrap-left #tech .content-container .wrap-tech p {
   margin: 0px auto;
   padding: 0px;
+  font-weight: 400;
+  font-size: 14px;
 }
 /* #######################H TECH ########################### */
 
@@ -400,6 +408,8 @@ body {
 .wrap-left #project .content-container .wrap-project p {
   margin: 0px auto;
   padding: 0px;
+  font-weight: 400;
+  font-size: 14px;
 }
 .wrap-left #project .content-container .wrap-project .img-wrap {
   margin: 40px auto;
@@ -447,10 +457,12 @@ body {
 .wrap-left #certificate .content-container ul li p {
   margin: 0px auto;
   padding: 0px;
+  font-weight: 400;
+  font-size: 14px;
 }
 .wrap-left #certificate .content-container ul li .linkto-certificate {
   margin-top: 0px;
-  font-size: 14px;
+  font-size: 12px;
 }
 .wrap-left #certificate .content-container ul li .linkto-certificate a {
   text-decoration: underline;
@@ -521,7 +533,7 @@ body {
   #right .wrap-right .photo-wrap .photo .available {
     width: 32px;
     height: 32px;
-    font-size: 18px;
+    font-size: 16px;
   }
   /* ###################### PHOTO ########################## */
 
