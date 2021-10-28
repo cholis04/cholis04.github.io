@@ -374,6 +374,13 @@ body {
   padding: 0px;
   font-weight: 600;
 }
+.wrap-left #tech .content-container .wrap-tech ul li {
+  margin: 0px auto;
+  margin-bottom: 10px;
+  padding: 0px;
+  font-weight: 400;
+  font-size: 14px;
+}
 
 .wrap-left #tech .content-container .wrap-tech p {
   margin: 0px auto;

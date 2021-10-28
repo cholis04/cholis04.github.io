@@ -1,17 +1,22 @@
 window.addEventListener('load', () => {
   /* DATA NUM */
-
-  const numCertificates =
-    document.getElementById('item-certificates').childElementCount
+  let numCertificates = 0
+  const numCertificatesElements =
+    document.getElementsByClassName('item-certificates')
   const numProjects =
     document.getElementById('item-projects').childElementCount - 1
 
+  for (var i = 0; i < numCertificatesElements.length; i++) {
+    numCertificates += numCertificatesElements[i].childElementCount
+  }
+
+  /* Number of Technologies*/
   const getTech = document.querySelectorAll('.wrap-tech')
   let numTechs = 0
   getTech.forEach((tech) => {
-    const text = tech.getElementsByTagName('p')
-    let numberText = text[0].innerText.split(',')
-    numTechs += numberText.length
+    numTechs += tech.getElementsByTagName('li').length
+    // const text = tech.getElementsByTagName('p')
+    // let numberText = text[0].innerText.split(',')
   })
 
   document.getElementById('number-projects').innerText = numProjects
