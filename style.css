@@ -435,6 +435,23 @@ body {
   width: 100%;
   height: auto;
 }
+.wrap-left #project .content-container .wrap-project details {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+.wrap-left #project .content-container .wrap-project details summary {
+  cursor: pointer;
+  font-size: 16px;
+  color: #dbdbdb;
+}
+.wrap-left #project .content-container .wrap-project details section p {
+  font-size: 14px;
+  line-height: 30px;
+}
+.wrap-left #project .content-container .wrap-project details section ul li {
+  font-size: 14px;
+  line-height: 30px;
+}
 /* #######################H PROJECT ########################### */
 
 /* #######################H CERTIFICATED ########################### */
@@ -628,6 +645,12 @@ body {
   .wrap-left #project .content-container .wrap-project .img-wrap {
     margin: 20px auto;
     width: 100%;
+  }
+  .wrap-left #project .content-container .wrap-project details {
+    margin-bottom: 0px;
+  }
+  .wrap-left #project .content-container .wrap-project details summary {
+    font-size: 14px;
   }
   /* #######################H PROJECT ########################### */
 
