@@ -29,8 +29,8 @@
 	<link rel="apple-touch-icon" href="/favicon.png" />
 	<link href='./favicon.png' rel='icon' sizes='12x12' type='image/gif' />
 
-	<title>Nurcholis (cholis04) - Create a Website</title>
-	<link rel="stylesheet" type="text/css" href="./style.css" />
+	<title>Nurcholis (cholis04) - Frontend Designer</title>
+	<!-- <link rel="stylesheet" type="text/css" href="./style.css" /> -->
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-180833949-1"></script>
@@ -47,82 +47,130 @@
 <body>
 
 	<div class="container">
+		<main>
+			<section class="summary">
+				<div class="summary__photo-wrap">
+					<div class="summary__photo">
+						<!-- <img src="./img/Profile-2.jpg" title="Nur Cholis" alt="Profile Photo Nur Cholis" /> -->
+						<div class="available linked" title="Available | Click to About Me" data-id="home"><b>i</b>
+						</div>
+					</div>
+				</div>
+				<h1 class="summary__name">Nurcholis</h1>
+				<p class="summary__job-title">Front End Web Developer</p>
+				<div class="summary__stats">
+					<div class="box-stats linked" data-id="project">
+						<p id="number-projects">-</p>
+						<p>Projects</p>
+					</div>
+					<div class="box-stats linked" data-id="certificate">
+						<p id="number-certificates">-</p>
+						<p>Certificates</p>
+					</div>
+					<div class="box-stats linked" data-id="tech">
+						<p id="number-technologies">-</p>
+						<p>Technologies</p>
+					</div>
+				</div>
+				<div class="summary__button-wrap">
+					<a href="mailto:1997nurkholis@gmail" class="button-1">Hire me!</a>
+				</div>
+				<div class="summary__link-wrap">
+					<a href="https://docs.google.com/document/d/1XcYr3jp7N2FRmDAwPGv26s-TCqlYp1WfvCLv8L4P7aw/edit?usp=sharing"
+						class="download-link" target="_blank" rel="noopener">Download My
+						Resume</a>
+				</div>
+				<footer class="summary__footer-link">Github, CodePen, Instagram, Dribble,</footer>
+			</section>
+		</main>
 
-		<div id="left">
-			<div class="wrap-left">
-
-				<div class="content" id="home">
+		<aside>
+			<div id="left">
+				<section class="content" id="home" aria-labelledby="about-me">
 					<a class="back-button">x</a>
 					<div class="content-container">
-						<h2>Hi There! 👋</h2>
+						<h2 id="about-me">About Me 👋</h2>
 						<p>
 							I'm a conscientious web developer with more than 2 years
-							front end web experience and passion for responsiveness
-							website design and strongly believe in
-							mobile-first approach.
-							<br /> <br />
+							front end web experience and strongly believe in
+							mobile-first approach. I like responsive website design and try to write cleaner code
+						</p>
 
-							Developing and maintaining the user interface.
-							Optimizing the user experience.
-							Managing software workflow.
-							Implementing design on mobile websites.
-							Creating tools that improve site interaction regardless of the browser.
-							Fixing bugs and testing for usability.
-							Following SEO best practices.
+						<p>
+							I'm currently learning Typescript, Next JS, React Testing Library, Webpack
+						</p>
 
-							<br /><br />
-							I also shared some content on Instagram about basic
-							understanding of CSS and JavaScript.
-							<br /><br />
-							Contact me by Email : 1997nurkholis@gmail.com<br /><br />
-							Follow me on Instagram @cholis04
+						<ul>
+							<li>Developing and maintaining the user interface.</li>
+							<li>Optimizing the user experience.</li>
+							<li>Managing software workflow.</li>
+							<li>Implementing design on mobile websites.</li>
+							<li>Creating tools that improve site interaction regardless of the browser.</li>
+							<li>Fixing bugs and testing for usability.</li>
+							<li>Following SEO best practices.</li>
+						</ul>
+
+						<p>
+							Contact me by Email : 1997nurkholis@gmail.com
 							<br /><br />
 							<b>Medan, Indonesia</b>
 						</p>
 					</div>
-				</div>
 
-				<div class="content" id="tech">
+				</section>
+				<section class="content" id="tech" aria-labelledby="tech-stack">
 					<a class="back-button">x</a>
 					<div class="content-container">
-						<h2>Tech Stack</h2>
+						<h2 id="tech-stack">Tech Stack</h2>
 
 						<div class="wrap-tech">
-							<h4>Programming Language</h4>
+							<h3>Programming Language</h3>
 							<ul>
-								<li><b>Node Js</b> [ ±1 year | Beginner ]</li>
-								<li><b>JavaScript</b> [ ±4 years | Advanced ]</li>
+								<li>Node JS</li>
+								<li>PHP</li>
+								<li>JavaScript</li>
 							</ul>
 						</div>
 						<div class="wrap-tech">
-							<h4>Mark Up Language</h4>
+							<h3>Mark Up Language</h3>
 							<ul>
-								<li><b>HTML</b> [ ±4 years | Profecient ]</li>
-								<li><b>CSS</b> [ ±4 years | Profecient ]</li>
+								<li>HTML</li>
+								<li>CSS</li>
 							</ul>
 						</div>
 						<div class="wrap-tech">
-							<h4>Database</h4>
+							<h3>CSS preprocessor</h3>
 							<ul>
-								<li><b>MySQL</b> [ ±4 years | Advanced ]</li>
-								<li><b>Firestore</b> [ ±1 year | Beginner ]</li>
-								<li><b>MongoDB</b> [ ±1 year | Beginner ]</li>
+								<li>SASS</li>
+								<li>Styled Component</li>
 							</ul>
 						</div>
 						<div class="wrap-tech">
-							<h4>Libraries and Frameworks</h4>
+							<h3>Database</h3>
 							<ul>
-								<li><b>React JS</b> [ ±2 years | Profecient ]</li>
-								<li><b>Gatsby JS</b> [ ±1 year | Beginner ]</li>
-								<li><b>Next JS</b> [ ±1 year | Beginner ]</li>
-								<li><b>Bootstrap</b> [ ±2 years | Beginner ]</li>
+								<li>MySQL</li>
+								<li>Firestore </li>
+								<li>MongoDB</li>
 							</ul>
 						</div>
 						<div class="wrap-tech">
-							<h4>Tools and Support</h4>
+							<h3>Libraries and Frameworks</h3>
+							<ul>
+								<li>React JS</li>
+								<li>Gatsby JS</li>
+								<li>Next JS</li>
+								<li>Bootstrap</li>
+							</ul>
+						</div>
+						<div class="wrap-tech">
+							<h3>Tools and Support</h3>
 							<ul>
 								<li>GitHub</li>
 								<li>Firebase</li>
+								<li>Typescript</li>
+								<li>Jest</li>
+								<li>React Testing Library</li>
+								<li>Webpack</li>
 								<li>VS Code</li>
 								<li>Postman</li>
 								<li>Adobe XD</li>
@@ -130,16 +178,15 @@
 								<li>Figma</li>
 							</ul>
 						</div>
-
 					</div>
-				</div>
+				</section>
 
-				<div class="content" id="project">
+				<section class="content" id="project" aria-labelledby="recent-projects">
 					<a class="back-button">x</a>
 					<div class="content-container" id="item-projects">
-						<h2>Recent Projects</h2>
+						<h2 id="recent-projects">Recent Projects</h2>
 						<div class="wrap-project">
-							<h4>Samawwah Landing Page</h4>
+							<h3>Samawwah Landing Page</h3>
 							<p>( 2021 ) - Gatsby JS</p>
 							<div class="img-wrap">
 								<a href="https://samawwah.com/" target="_blank" rel="noopener">
@@ -149,16 +196,16 @@
 							</div>
 							<details>
 								<summary>Details</summary>
-								<section>
-									<h5>About :</h5>
+								<div>
+									<p class="summary-title">About :</p>
 									<p>
 										Promote the services of wedding invitation service providers that contain some
 										information in the form of benefits, prices, theme choices, and how to order
 										wedding invitation services.
 									</p>
-								</section>
-								<section>
-									<h5>Feature :</h5>
+								</div>
+								<div>
+									<p class="summary-title">Feature :</p>
 									<ul>
 										<li>Applying SEO friendly</li>
 										<li>The appearance of the site is attractive, up-to-date and responsive</li>
@@ -167,19 +214,19 @@
 										<li>Links to dynamic invite demos based on the selected theme</li>
 										<li>Live demo of wedding invitation theme</li>
 									</ul>
-								</section>
-								<section>
-									<h5>Deficiency :</h5>
+								</div>
+								<div>
+									<p class="summary-title">Deficiency :</p>
 									<ul>
 										<li>No login system</li>
 										<li>Don't have an order page for potential customers yet</li>
 									</ul>
-								</section>
+								</div>
 							</details>
 							<hr />
 						</div>
 						<div class="wrap-project">
-							<h4>Cooking Recipe Web App</h4>
+							<h3>Cooking Recipe Web App</h3>
 							<p>( 2021 ) - ES6, Webpack, Web Component</p>
 							<div class="img-wrap">
 								<a href="https://cooking-app-ae933.web.app/" target="_blank" rel="noopener">
@@ -189,34 +236,34 @@
 							</div>
 							<details>
 								<summary>Details</summary>
-								<section>
-									<h5>About :</h5>
+								<div>
+									<p class="summary-title">About :</p>
 									<p>
 										This website is intended for learning in one of the online course at
 										Dicoding Indonesia. Where this site helps users to search and find recipes.
 									</p>
-								</section>
-								<section>
-									<h5>Feature :</h5>
+								</div>
+								<div>
+									<p class="summary-title">Feature :</p>
 									<ul>
 										<li>Users can search recipe data.</li>
 										<li>See the entire list of recipes that are searched by keyword.</li>
 										<li>See the recipe in detail.</li>
 									</ul>
-								</section>
-								<section>
-									<h5>Deficiency :</h5>
+								</div>
+								<div>
+									<p class="summary-title">Deficiency :</p>
 									<ul>
 										<li>Website is too simple.</li>
 										<li>The recipe list is not showing when the page is loaded for the first time
 										</li>
 									</ul>
-								</section>
+								</div>
 							</details>
 							<hr />
 						</div>
 						<div class="wrap-project">
-							<h4>Digital Wedding Invitation</h4>
+							<h3>Digital Wedding Invitation</h3>
 							<p>( 2021 ) - HTML, CSS, JavaScript</p>
 							<div class="img-wrap">
 								<a href="https://auliaputra.samawwah.com" target="_blank" rel="noopener">
@@ -226,15 +273,15 @@
 							</div>
 							<details>
 								<summary>Details</summary>
-								<section>
-									<h5>About :</h5>
+								<div>
+									<p class="summary-title">About :</p>
 									<p>
 										Save money on invitations to weddings via the link sent and make it easy to
 										share invitations online anywhere and anytime for millennials
 									</p>
-								</section>
-								<section>
-									<h5>Feature :</h5>
+								</div>
+								<div>
+									<p class="summary-title">Feature :</p>
 									<ul>
 										<li>Pinning the names of invited guests.</li>
 										<li>Wedding event countdown.</li>
@@ -244,20 +291,20 @@
 										<li>Guest book containing greetings from invited guests.</li>
 										<li>Management list of guests who want to be invited.</li>
 									</ul>
-								</section>
-								<section>
-									<h5>Deficiency :</h5>
+								</div>
+								<div>
+									<p class="summary-title">Deficiency :</p>
 									<ul>
 										<li>The web page hasn't been optimized so it's slow to load.</li>
 										<li>There is no check-in and reservation system.</li>
 										<li>Some browsers don't support invitation display.</li>
 									</ul>
-								</section>
+								</div>
 							</details>
 							<hr />
 						</div>
 						<div class="wrap-project">
-							<h4>Flipcard - Digital Contact</h4>
+							<h3>Flipcard - Digital Contact</h3>
 							<p>( 2021 ) - Firebase, React JS</p>
 							<div class="img-wrap">
 								<a href="https://flipcard.xyz" target="_blank" rel="noopener">
@@ -267,15 +314,15 @@
 							</div>
 							<details>
 								<summary>Details</summary>
-								<section>
-									<h5>About :</h5>
+								<div>
+									<p class="summary-title">About :</p>
 									<p>
 										Help users create a special page in the form of a digital business card
 										containing information and several links in it that are easy to use and free
 									</p>
-								</section>
-								<section>
-									<h5>Feature :</h5>
+								</div>
+								<div>
+									<p class="summary-title">Feature :</p>
 									<ul>
 										<li>Login using Google Account.</li>
 										<li>Added User photos and information.</li>
@@ -286,21 +333,21 @@
 										<li>Analyze the number of people who viewed and clicked on your link.</li>
 
 									</ul>
-								</section>
-								<section>
-									<h5>Deficiency :</h5>
+								</div>
+								<div>
+									<p class="summary-title">Deficiency :</p>
 									<ul>
 										<li>Limited digital business card customization display.</li>
 										<li>The number of links that can be added is no more than 12.</li>
 										<li>Inaccurate data analysis.</li>
 										<li>Some browsers do not support digital business card display.</li>
 									</ul>
-								</section>
+								</div>
 							</details>
 							<hr />
 						</div>
 						<div class="wrap-project">
-							<h4>Trisya Label Official Web App</h4>
+							<h3>Trisya Label Official Web App</h3>
 							<p>( 2021 ) - HTML, CSS, React JS template PWA</p>
 							<div class="img-wrap">
 								<a href="https://trisya-label.web.app/" target="_blank" rel="noopener">
@@ -310,16 +357,16 @@
 							</div>
 							<details>
 								<summary>Details</summary>
-								<section>
-									<h5>About :</h5>
+								<div>
+									<p class="summary-title">About :</p>
 									<p>
 										Marketing products in the form of food ingredients that are ready to be cooked.
 										view all products sold and provide information such as grocery prices, delivery
 										schedules and couriers, as well as available payment methods.
 									</p>
-								</section>
-								<section>
-									<h5>Feature :</h5>
+								</div>
+								<div>
+									<p class="summary-title">Feature :</p>
 									<ul>
 										<li>Users can find the groceries they want to buy.</li>
 										<li>There is a ingredients category menu that makes it easy for potential
@@ -330,21 +377,21 @@
 										<li>Links to trisya label social media account.</li>
 										<li>Orders will be directed to the WhatsApp application.</li>
 									</ul>
-								</section>
-								<section>
-									<h5>Deficiency :</h5>
+								</div>
+								<div>
+									<p class="summary-title">Deficiency :</p>
 									<ul>
 										<li>Does not have a login system, so users don't have an order history list, and
 											admins can't add/change products without going through manual coding.</li>
 										<li>Have not optimized SEO.</li>
 										<li>Still using the free domain.</li>
 									</ul>
-								</section>
+								</div>
 							</details>
 							<hr />
 						</div>
 						<div class="wrap-project">
-							<h4>Carousnap - Easy Snap Carousel</h4>
+							<h3>Carousnap - Easy Snap Carousel</h3>
 							<p>( 2020 ) - HTML, CSS, JavaScript</p>
 							<div class="img-wrap">
 								<a href="https://carousnap.github.io/" target="_blank" rel="noopener">
@@ -354,16 +401,16 @@
 							</div>
 							<details>
 								<summary>Details</summary>
-								<section>
-									<h5>About :</h5>
+								<div>
+									<p class="summary-title">About :</p>
 									<p>
 										Speeds up the work from website development to displaying multiple photos in one
 										container which would normally have to be done manually and was time consuming
 										at the begining.
 									</p>
-								</section>
-								<section>
-									<h5>Feature :</h5>
+								</div>
+								<div>
+									<p class="summary-title">Feature :</p>
 									<ul>
 										<li>Easy installation by linking from CDN link.</li>
 										<li>On mobile devices just a swipe.</li>
@@ -371,20 +418,20 @@
 										<li>Next/Prev button that appears when using the mouse cursor.</li>
 										<li>Break through Lazy Load. Reduces data usage when photos are not loaded.</li>
 									</ul>
-								</section>
-								<section>
-									<h5>Deficiency :</h5>
+								</div>
+								<div>
+									<p class="summary-title">Deficiency :</p>
 									<ul>
 										<li>Still using Vanilla JS so it's not optimized yet.</li>
 										<li>Some old browsers don't support css scroll snap.</li>
 										<li>Haven't used NPM.</li>
 									</ul>
-								</section>
+								</div>
 							</details>
 							<hr />
 						</div>
 						<div class="wrap-project">
-							<h4>Landing Page Casegakure</h4>
+							<h3>Landing Page Casegakure</h3>
 							<p>( 2020 ) - Blogger Template</p>
 							<div class="img-wrap">
 								<a href="https://casegakure.blogspot.com" target="_blank" rel="noopener">
@@ -394,16 +441,16 @@
 							</div>
 							<details>
 								<summary>Details</summary>
-								<section>
-									<h5>About :</h5>
+								<div>
+									<p class="summary-title">About :</p>
 									<p>
 										Inviting users / potential buyers to place an order for a mobile phone case that
 										can be customized at Casegakure.And also provide information about mobile phone
 										cases to users.
 									</p>
-								</section>
-								<section>
-									<h5>Feature :</h5>
+								</div>
+								<div>
+									<p class="summary-title">Feature :</p>
 									<ul>
 										<li>Attractive and futuristic look.</li>
 										<li>Links to casegakure social media account.</li>
@@ -413,9 +460,9 @@
 										<li>The Call to Action button goes directly to the WhatsApp application.</li>
 
 									</ul>
-								</section>
-								<section>
-									<h5>Deficiency :</h5>
+								</div>
+								<div>
+									<p class="summary-title">Deficiency :</p>
 									<ul>
 										<li>Domain name using blogspot.com.</li>
 										<li>Using a blog template so it's a little limited to customizing the page.</li>
@@ -423,12 +470,12 @@
 										<li>Pages a little slow to load.</li>
 
 									</ul>
-								</section>
+								</div>
 							</details>
 							<hr />
 						</div>
 						<div class="wrap-project">
-							<h4>Casegakure Admin Dashboard</h4>
+							<h3>Casegakure Admin Dashboard</h3>
 							<p>( 2019 ) - PHP, MySQL, Bootsrap Template</p>
 							<div class="img-wrap">
 								<a>
@@ -438,16 +485,16 @@
 							</div>
 							<details>
 								<summary>Details</summary>
-								<section>
-									<h5>About :</h5>
+								<div>
+									<p class="summary-title">About :</p>
 									<p>
 										Monitor and process sales data, stock of goods to make it easier, wherever and
 										whenever through the website. So that the data becomes transparent for admins
 										who have login access.
 									</p>
-								</section>
-								<section>
-									<h5>Feature :</h5>
+								</div>
+								<div>
+									<p class="summary-title">Feature :</p>
 									<ul>
 										<li>Added new order data for immediate production.</li>
 										<li>Adding case sales data.</li>
@@ -456,9 +503,9 @@
 											by the admins. Such as for adding, deleting and more.</li>
 										<li>The Call to Action button goes directly to the WhatsApp application.</li>
 									</ul>
-								</section>
-								<section>
-									<h5>Deficiency :</h5>
+								</div>
+								<div>
+									<p class="summary-title">Deficiency :</p>
 									<ul>
 										<li>The login feature still uses the usual database selection, has not
 											implemented an authentication and authorization login system.</li>
@@ -466,12 +513,12 @@
 											manually to the admin in charge of receiving orders so that it is processed
 											immediately.</li>
 									</ul>
-								</section>
+								</div>
 							</details>
 							<hr />
 						</div>
 						<div class="wrap-project">
-							<h4>Vectormedan - Jasa Pembuatan Vector</h4>
+							<h3>Vectormedan - Jasa Pembuatan Vector</h3>
 							<p>( 2017 ) - PHP, MySQL, HTML, CSS, JavaScript</p>
 							<div class="img-wrap">
 								<a>
@@ -481,16 +528,16 @@
 							</div>
 							<details>
 								<summary>Details</summary>
-								<section>
-									<h5>About :</h5>
+								<div>
+									<p class="summary-title">About :</p>
 									<p>
 										Displays all vector graphic services in the form of silhouettes, vectors,
 										caricatures and others so that they are easily accessible to everyone, and
 										allows users/potential buyers to place orders directly through the website.
 									</p>
-								</section>
-								<section>
-									<h5>Feature :</h5>
+								</div>
+								<div>
+									<p class="summary-title">Feature :</p>
 									<ul>
 										<li>There is a login feature and has 2 user roles, namely admin and prospective
 											buyers.</li>
@@ -500,32 +547,32 @@
 										<li>There is an order form for prospective buyers and will be sent via email to
 											the admin in the form of a new order notification.</li>
 									</ul>
-								</section>
-								<section>
-									<h5>Deficiency :</h5>
+								</div>
+								<div>
+									<p class="summary-title">Deficiency :</p>
 									<ul>
 										<li>The login feature only uses selection based on the data base, does not use
 											authentication and authorization.</li>
 										<li>Not yet integrated with payment gateway.</li>
 										<li>Email notifications are no longer supported or need updating.</li>
 									</ul>
-								</section>
+								</div>
 							</details>
 							<hr />
 						</div>
 					</div>
-				</div>
+				</section>
 
-				<div class="content" id="certificate">
+				<section class="content" id="certificate" aria-labelledby="certificates">
 					<a class="back-button">x</a>
 					<div class="content-container">
-						<h2>Certiticates</h2>
+						<h2 id="certificates">Certiticates</h2>
 
-						<h4>Front End Web Developer</h4>
+						<h3>Front End Web Developer</h3>
 						<ul class="item-certificates">
 							<li>
-								<h4>(2021) - Dicoding Indonesia </h4>
-								<p>Belajar Fundamental Front-End Web Development</p>
+								<h4>Belajar Fundamental Front-End Web Development</h4>
+								<p>(2021) - Dicoding Indonesia </p>
 								<div class="linkto-certificate">
 									<a href="https://www.dicoding.com/certificates/KEXL3LOGWPG2" target="_blank"
 										rel="noopener">
@@ -534,8 +581,8 @@
 								</div>
 							</li>
 							<li>
-								<h4>(2021) - freeCodeCamp </h4>
-								<p>Front End Development Libraries</p>
+								<h4>Front End Development Libraries</h4>
+								<p>(2021) - freeCodeCamp </p>
 								<div class="linkto-certificate">
 									<a href="https://www.freecodecamp.org/certification/cholis/front-end-libraries"
 										target="_blank" rel="noopener">
@@ -544,8 +591,8 @@
 								</div>
 							</li>
 							<li>
-								<h4>(2021) - Dicoding Indonesia </h4>
-								<p>Belajar Membuat Front-End Web untuk Pemula</p>
+								<h4>Belajar Membuat Front-End Web untuk Pemula</h4>
+								<p>(2021) - Dicoding Indonesia </p>
 								<div class="linkto-certificate">
 									<a href="https://www.dicoding.com/certificates/6RPNK2G89P2M" target="_blank"
 										rel="noopener">
@@ -554,8 +601,8 @@
 								</div>
 							</li>
 							<li>
-								<h4>(2021) - Dicoding Indonesia </h4>
-								<p>Belajar Dasar Pemrograman Web</p>
+								<h4>Belajar Dasar Pemrograman Web</h4>
+								<p>(2021) - Dicoding Indonesia </p>
 								<div class="linkto-certificate">
 									<a href="https://www.dicoding.com/certificates/N9ZOD1JEDPG5" target="_blank"
 										rel="noopener">
@@ -564,8 +611,8 @@
 								</div>
 							</li>
 							<li>
-								<h4>(2021) - freeCodeCamp </h4>
-								<p>JavaScript Algorithms and Data Structures</p>
+								<h4>JavaScript Algorithms and Data Structures</h4>
+								<p>(2021) - freeCodeCamp </p>
 								<div class="linkto-certificate">
 									<a href="https://www.freecodecamp.org/certification/cholis/javascript-algorithms-and-data-structures"
 										target="_blank" rel="noopener">
@@ -576,11 +623,11 @@
 						</ul>
 						<br />
 
-						<h4>Back End Developer</h4>
+						<h3>Back End Developer</h3>
 						<ul class="item-certificates">
 							<li>
-								<h4>(2021) - Dicoding Indonesia </h4>
-								<p>Architecting on AWS (Membangun Arsitektur Cloud di AWS)</p>
+								<h4>Architecting on AWS (Membangun Arsitektur Cloud di AWS)</h4>
+								<p>(2021) - Dicoding Indonesia </p>
 								<div class="linkto-certificate">
 									<a href="https://www.dicoding.com/certificates/07Z658ORWXQR" target="_blank"
 										rel="noopener">
@@ -589,8 +636,8 @@
 								</div>
 							</li>
 							<li>
-								<h4>(2021) - Dicoding Indonesia </h4>
-								<p>Cloud Practitioner Essentials (Belajar Dasar AWS Cloud)</p>
+								<h4>Cloud Practitioner Essentials (Belajar Dasar AWS Cloud)</h4>
+								<p>(2021) - Dicoding Indonesia </p>
 								<div class="linkto-certificate">
 									<a href="https://www.dicoding.com/certificates/ERZR5RE5OPYV" target="_blank"
 										rel="noopener">
@@ -599,8 +646,8 @@
 								</div>
 							</li>
 							<li>
-								<h4>(2021) - Dicoding Indonesia </h4>
-								<p>Belajar Membuat Aplikasi Back-End untuk Pemula</p>
+								<h4>Belajar Membuat Aplikasi Back-End untuk Pemula</h4>
+								<p>(2021) - Dicoding Indonesia </p>
 								<div class="linkto-certificate">
 									<a href="https://www.dicoding.com/certificates/L4PQM7347ZO1" target="_blank"
 										rel="noopener">
@@ -609,8 +656,8 @@
 								</div>
 							</li>
 							<li>
-								<h4>(2021) - Dicoding Indonesia </h4>
-								<p>Belajar Dasar Pemrograman JavaScript</p>
+								<h4>Belajar Dasar Pemrograman JavaScript</h4>
+								<p>(2021) - Dicoding Indonesia </p>
 								<div class="linkto-certificate">
 									<a href="https://www.dicoding.com/certificates/JMZVMLR9RZN9" target="_blank"
 										rel="noopener">
@@ -621,11 +668,11 @@
 						</ul>
 						<br />
 
-						<h4>Data Analyst </h4>
+						<h3>Data Analyst </h3>
 						<ul class="item-certificates">
 							<li>
-								<h4>(2021) - DQLab.id </h4>
-								<p>Data Analyst Python Track</p>
+								<h4>Data Analyst Python Track</h4>
+								<p>(2021) - DQLab.id </p>
 								<div class="linkto-certificate">
 									<a href="https://academy.dqlab.id/certificate/pdf/DQLABDATRCSIBNRG/TRACK"
 										target="_blank" rel="noopener">
@@ -634,8 +681,8 @@
 								</div>
 							</li>
 							<li>
-								<h4>(2021) - FutureLearn </h4>
-								<p>Big Data Analytics: Opportunities, Challenges, and the Future</p>
+								<h4>Big Data Analytics: Opportunities, Challenges, and the Future</h4>
+								<p>(2021) - FutureLearn </p>
 								<div class="linkto-certificate">
 									<a href="https://www.futurelearn.com/certificates/2bztstb" target="_blank"
 										rel="noopener">
@@ -646,61 +693,13 @@
 						</ul>
 
 					</div>
-				</div>
-
+				</section>
 			</div>
-		</div>
+		</aside>
 
-
-
-
-
-
-		<div id="right">
-
-			<div class="wrap-right">
-				<div class="photo-wrap">
-					<div class="photo">
-						<img src="./img/Profile-2.jpg" title="Nur Cholis" alt="Profile Photo Nur Cholis" />
-						<div class="available linked" title="Available | Click to About Me" data-id="home"><b>i</b>
-						</div>
-					</div>
-
-				</div>
-				<h2 class="name">Nurcholis</h2>
-				<p class="title">Front End Web Developer</p>
-				<div class="stats">
-					<div class="box-stats linked" data-id="project">
-						<h4 id="number-projects">-</h4>
-						<p>Projects</p>
-					</div>
-					<div class="box-stats linked" data-id="certificate">
-						<h4 id="number-certificates">-</h4>
-						<p>Certificates</p>
-					</div>
-					<div class="box-stats linked" data-id="tech">
-						<h4 id="number-technologies">-</h4>
-						<p>Technologies</p>
-					</div>
-				</div>
-				<div class="button-wrap">
-					<a href="mailto:1997nurkholis@gmail" class="button-1">Hire me!</a>
-				</div>
-				<br />
-				<div class="link-wrap">
-					<a href="https://docs.google.com/document/d/1XcYr3jp7N2FRmDAwPGv26s-TCqlYp1WfvCLv8L4P7aw/edit?usp=sharing"
-						class="download-link" target="_blank" rel="noopener">Download My
-						Resume</a>
-				</div>
-				<br />
-				<p class="footer">Made with 💜 by <a href="https://flipcard.xyz/cholis04" target="_blank"
-						rel="noopener">cholis04</a></p>
-			</div>
-
-		</div>
 
 	</div>
-	<script type="text/javascript" src="./script.js"></script>
+	<!-- <script type="text/javascript" src="./script.js"></script> -->
 </body>
 
 </html>
