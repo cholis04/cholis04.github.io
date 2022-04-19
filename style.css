@@ -518,6 +518,14 @@ li {
   font-weight: 700;
   margin-bottom: 10px;
 }
+#project
+  .content-container
+  .wrap-project
+  details
+  .detail-project
+  p a  {
+ color:inherit;
+}
 #project .content-container .wrap-project details .detail-project ul {
   padding-left: 16px;
 }
@@ -625,6 +633,7 @@ li {
     width: 100%;
   }
   .back-button {
+    z-index: 890;
     display: block;
   }
 
