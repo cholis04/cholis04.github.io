@@ -351,6 +351,7 @@ li {
   width: 28px;
   height: 28px;
   background: black;
+  border:none;
   color: rgb(175, 175, 175);
   border-radius: 20px;
   font-size: 14px;
