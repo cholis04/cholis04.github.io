@@ -212,6 +212,7 @@ li {
   align-items: center;
 }
 .summary__box-stats {
+  font-family: 'Inter', sans-serif;
   margin: 15px;
   width: 25%;
   cursor: pointer;
