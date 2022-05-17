@@ -399,12 +399,20 @@ li {
   padding-left: 20px;
 }
 
+#home .home__paragraph {
+  margin-bottom: 16px;
+}
 #home .home__paragraph > a {
   color: inherit;
 }
+
+#home .home__badges {
+  margin-bottom: 20px;
+}
+
 #home .home__todo {
   margin-top: 20px;
-  margin-bottom: 40px;
+  margin-bottom: 24px;
 }
 #home .home__todo h3 {
   margin-bottom: 20px;
