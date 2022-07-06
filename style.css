@@ -29,6 +29,10 @@ li {
   font-size: 16px;
 }
 
+a {
+  color:inherit;
+}
+
 .container {
   position: relative;
   margin: 0px auto;
