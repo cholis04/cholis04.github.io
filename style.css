@@ -30,7 +30,7 @@ li {
 }
 
 a {
-  color:inherit;
+  color: inherit;
 }
 
 .container {
@@ -197,9 +197,9 @@ a {
 /* ############################################# */
 
 .summary__stats {
-  margin: 0px auto;
-  margin-top: 10px;
-  margin-bottom: 20px;
+  margin: 24px auto;
+  margin-bottom: 32px;
+
   max-width: 420px;
   width: 100%;
   height: auto;
@@ -356,7 +356,7 @@ a {
   width: 28px;
   height: 28px;
   background: black;
-  border:none;
+  border: none;
   color: rgb(175, 175, 175);
   border-radius: 20px;
   font-size: 14px;
@@ -532,13 +532,8 @@ a {
   font-weight: 700;
   margin-bottom: 10px;
 }
-#project
-  .content-container
-  .wrap-project
-  details
-  .detail-project
-  p a  {
- color:inherit;
+#project .content-container .wrap-project details .detail-project p a {
+  color: inherit;
 }
 #project .content-container .wrap-project details .detail-project ul {
   padding-left: 16px;
@@ -716,7 +711,8 @@ a {
   /* #####################  NAME & TITLE  ######################## */
   /* #####################   STATS   ######################## */
   .summary__stats {
-    margin-top: 20px;
+    margin-top: 32px;
+    margin-bottom: 32px;
     padding: 0px;
   }
   .summary__box-stats {
